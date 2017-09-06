@@ -5,12 +5,12 @@
  */
 
 import React, { Component } from 'react';
-import firebase from './firebase';
+import firebase from './components/firebase';
 import { Router, Scene } from 'react-native-router-flux';
-import Login from './Login';
-import PageTwo from './StoryList';
-import StoryData from './StoryData';
-import TellStory from './TellStory';
+import Login from './components/Login';
+import PageTwo from './components/StoryList';
+import StoryData from './components/StoryData';
+import TellStory from './components/TellStory';
 
 import {
   AppRegistry,
@@ -24,6 +24,7 @@ import {
 
 
 export default class testEject extends Component {
+    
     render() {
     return (
       
